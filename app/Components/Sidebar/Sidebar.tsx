@@ -12,8 +12,17 @@ function Sidebar(){
         <SidebarStyled theme = {theme}>
             <div className="profile">
                 <div className="profile-overlay">
-                    <Image width={70} height={70} src = "images/image.jpg" alt="profile"/>
+                    <div className="image">
+                    <Image width={70} height={70} src = "/avatar.jpg" alt="profile"/>
+                    </div>
+                    <h1>
+                        <span>Sriman</span>
+                        <span>Nerella</span>
+                    </h1>
                 </div>
+                <ul className="nav-items">
+                    
+                </ul>
             </div>
         </SidebarStyled>
     );
